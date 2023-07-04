@@ -1,7 +1,7 @@
 all: compile
 
 compile: main.o my_event.o socker_server.o thread_pool.o
-	g++ -o epoll_test main.o my_event.o socker_server.o thread_pool.o
+	g++ -o epoll_server main.o my_event.o socker_server.o thread_pool.o
 
 main.o:src/main.cpp
 	g++ -c src/main.cpp -std=c++11 -g

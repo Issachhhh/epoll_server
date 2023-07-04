@@ -1,8 +1,8 @@
 ```
-    cd server
-    make
-    ./epoll_test
-    cd ../client
-    make
-    ./client
+cd server
+make
+./epoll_server
+cd ../client
+make
+./client
 ```
